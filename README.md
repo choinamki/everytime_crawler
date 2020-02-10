@@ -3,9 +3,17 @@
 
 
 에브리타임(https://everytime.kr) 크롤러입니다.
+
+
 아이디 비밀번호를 입력하면 게시판을 수집하여 json 파일로 저장해줍니다.
+
+
 에브리타임 게시판의 워드 클라우드를 만들어서 보고자 만들었습니다.
+
+
 사용하기 위해서는 크롬드라이버와 워드클라우드에 한글을 표시할 수 있는 폰트가 필요합니다.
+
+
 다른 게시판의 글을 수집하고 싶은 경우에는 BOARD_URL과 #자유게시판 클릭 주석의 코드 xpath 값을 수정하셔야 합니다.
 
 # infomation
@@ -31,5 +39,9 @@
 
 
 사용한 웹 드라이버는 크롬드라이버(http://chromedriver.chromium.org/downloads)
+
+
 워드클라우드에 사용한 폰트는 나눔고딕(https://hangeul.naver.com/font)
+
+
 단어 빈도수 분석을 위해서 KR-WordRank(https://github.com/lovit/KR-WordRank) 입니다.
